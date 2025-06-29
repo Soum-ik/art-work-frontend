@@ -33,7 +33,7 @@ const MappingEditor = () => {
         artworkUrl,
         baseImageUrl,
         scale,
-        rotation
+        rotation        
       );
       console.log(response);
       const mappedImageUrl = response?.s3Url;
